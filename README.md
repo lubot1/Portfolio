@@ -1,1 +1,2 @@
 # Portfolio
+Versatile web-developer with a love for solving challenging issues. He has a bachelor’s degree in Space Engineering from York where he first learned to program in various languages. He is currently pursuing a certificate in web-development at Humber college where he is developing data-driven websites.
