@@ -1,0 +1,94 @@
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+.navbar {
+    transition: all 0.4s;
+}
+
+.navbar .nav-link {
+    color: #131515;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: #7A4419;
+    text-decoration: none;
+}
+
+.navbar .navbar-brand {
+    color: #131515;
+    
+}
+
+
+/* Change navbar styling on scroll */
+.navbar.active {
+    background: #fff;
+}
+
+.navbar.active .nav-link {
+    color: #131515;
+    text-shadow: none;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color: #7A4419;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+.navbar.active .navbar-brand {
+    color: #131515;
+    text-shadow: none;
+}
+
+
+/* Change navbar styling on small viewports */
+@media (max-width: 991.98px) {
+    .navbar {
+        background: #fff;
+    }
+
+    .navbar .navbar-brand, .navbar .nav-link {
+        color: #555;
+    }
+}
+.LastName {
+    color: #7A4419;
+}
+/* JUMBOTRON SECTION */
+.jumbotron {
+    /* Photo by <a href="https://unsplash.com/@xcrap?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">César Couto</a> on <a href="https://unsplash.com/s/photos/portfolio-background?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+   */
+    background-image: url("../Images/shapelined-_JBKdviweXI-unsplash.jpg");
+    /* background-color: #454955; */
+    background-size: cover !important;
+    height: 100vh;
+    border-radius: 0%;
+    margin-bottom: 0px;
+}
+.jumbotron .container {
+    margin-top: 20vh;
+}
+h1 {
+    color: #131515;
+}
+#IntroText p {
+    color: #131515;
+}
+#ProfilePic {
+    max-width: 15%;
+    margin-right: -20%;
+}
+/* RESUME SECTION */
+#resume {
+    background-color: #2B2C28;
+}
+#resume h2 {
+    margin: 0%;
+}
