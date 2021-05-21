@@ -78,17 +78,28 @@
 h1 {
     color: #131515;
 }
+#IntroText {
+    margin-right: 10%;
+}
 #IntroText p {
     color: #131515;
+    max-width: 50%;
+    text-align: justify;
 }
 #ProfilePic {
     max-width: 15%;
-    margin-right: -20%;
+    /* margin-right: -20%; */
 }
 /* RESUME SECTION */
 #resume {
     background-color: #2B2C28;
+    height: 70vh;
 }
 #resume h2 {
     margin: 0%;
+    color: #dfdfdf;
+}
+#resumeBox {
+    height: 80%;
+    width: 20%;
 }

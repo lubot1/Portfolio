@@ -33,20 +33,21 @@ include "config.php";
         </nav>
     </header>
     <main>
-        <div class="jumbotron bg-cover" id="home">
+        <section class="jumbotron bg-cover" id="home">
             <div class="container py-5 text-center d-flex flex-row justify-content-around">
                 <img id="ProfilePic" src="./Images/LuisProfile.jpg" class="rounded"></img>
-                <div id="IntroText">
+                <div id="IntroText" class="d-flex flex-column align-items-center">
                     <h1 class="display-4 font-weight-bold">Hi! I'm Luis</h1>
-                    <p>Full-stack web developer</p>
-                    <button type="button" class="btn btn-outline-dark">Learn more</button>
+                    <p>Versatile web-developer with a love for solving challenging problems. He has a bachelor’s degree in Space Engineering from York University where he first learned to program in various languages. He is currently pursuing a certificate in web-development at Humber college where he is developing data-driven websites.</p>
+                    <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    <a href="#resume" class="btn btn-outline-dark">Learn more</a>
                 </div>
             </div>
-        </div>
-        <div class="text-center" id="resume">
+        </section>
+        <section class="text-center" id="resume">
             <h2>My story</h2>
-            <p></p>
-        </div>
+            <iframe name="myiframe" id="resumeBox" src="./Documents/Resume.pdf">
+        </section>
     </main>
     <footer>
         <!-- Enter in links to github and linkedin -->
