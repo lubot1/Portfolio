@@ -125,6 +125,10 @@ h1 {
 #contact p {
     color: #dfdfdf;
 }
+#SocialBtnsGroup {
+    max-width: 80%;
+    margin: auto;
+}
 .socialLinks {
     color: #dfdfdf;
     font-size: 5em;

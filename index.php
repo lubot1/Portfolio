@@ -1,6 +1,3 @@
-<?php
-include "config.php";
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,7 +10,6 @@ include "config.php";
     <link rel="stylesheet" href="./Stylesheets/main.css">
     <link rel="stylesheet" href="./Stylesheets/timeline.css">
     <script src="https://kit.fontawesome.com/d24233894e.js" crossorigin="anonymous"></script>
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <script src="./src/index.js"></script>
 </head>
 <body>
@@ -47,7 +43,7 @@ include "config.php";
             </div>
         </section>
         <section class="text-center" id="resume">
-            <h2>My story</h2>
+            <h2>My Story</h2>
             <div class="container">
                 <!-- Timeline template from https://www.bootdey.com/snippets/view/bs4-my-experience-timeline#html -->
                 <div class="main-timeline">
@@ -63,7 +59,7 @@ include "config.php";
                             </div>
                         </div>
                         <div class="timeline-content">
-                            <h5 class="title">B.Eng Space Engineering <span class="educationCampus">York University</span></h5>
+                            <h3 class="title">B.Eng Space Engineering <span class="educationCampus">York University</span></h3>
                             <p class="description">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex sit amet massa scelerisque scelerisque. Aliquam erat volutpat. Aenean interdum finibus efficitur. Praesent dapibus dolor felis, eu ultrices elit molestie.
                             </p>
@@ -83,7 +79,7 @@ include "config.php";
                             </div>
                         </div>
                         <div class="timeline-content">
-                            <h5 class="title">Web Development <span class="educationCampus">Humber College</span></h5>
+                            <h3 class="title">Web Development <span class="educationCampus">Humber College</span></h3>
                             <p class="description">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex sit amet massa scelerisque scelerisque. Aliquam erat volutpat. Aenean interdum finibus efficitur. Praesent dapibus dolor felis, eu ultrices elit molestie.
                             </p>
@@ -102,7 +98,7 @@ include "config.php";
                             </div>
                         </div>
                         <div class="timeline-content">
-                            <h5 class="title">Web Developer</h5>
+                            <h3 class="title">Web Developer</h3>
                             <p class="description">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex sit amet massa scelerisque scelerisque. Aliquam erat volutpat. Aenean interdum finibus efficitur. Praesent dapibus dolor felis, eu ultrices elit molestie.
                             </p>
@@ -133,7 +129,7 @@ include "config.php";
         </section>
         <section class="text-center" id="contact">
             <h2>Interested? Contact me</h2>
-            <div class="row">
+            <div class="row" id="SocialBtnsGroup">
                 <div class="col-sm">
                     <a href="https://github.com/lubot1"><i class="fab fa-github-square socialLinks" aria-hidden="true"></i></a>
                 </div>
