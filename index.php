@@ -119,7 +119,7 @@
                     </div>
                     <div class="col">
                         <h3>Isochrone</h3>
-                        <a href="http://http://isochrone.luisbotello.tech"><img src="./Images/Isochrone.png" alt="Map with polygons drawn on it representing the area someone can travel within a given timeframe"></a>
+                        <a href="http://isochrone.luisbotello.tech"><img src="./Images/Isochrone.png" alt="Map with polygons drawn on it representing the area someone can travel within a given timeframe"></a>
                         <p>Travel-time visualizer using an open API</p>
                     </div>
                     <div class="col">
