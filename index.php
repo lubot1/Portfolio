@@ -12,7 +12,8 @@ include "config.php";
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="./Stylesheets/main.css">
     <link rel="stylesheet" href="./Stylesheets/timeline.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/d24233894e.js" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <script src="./src/index.js"></script>
 </head>
 <body>
@@ -111,16 +112,38 @@ include "config.php";
                 </div>
             </div>
         </section>
-        <section id="projects">
+        <section class="text-center" id="portfolio">
             <h2>Projects</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <a href="http://"><img src="" alt="" srcset=""></a>        
+                    </div>
+                    <div class="col">
+                        <a href="http://"><img src="" alt="" srcset=""></a>
+                    </div>
+                    <div class="col">
+                        <a href="http://"><img src="" alt="" srcset=""></a>
+                    </div>
+                    <div class="col">
+                        <a href="http://"><img src="" alt="" srcset=""></a>
+                    </div>
+                </div>
+            </div>
         </section>
-        <section id="contact">
+        <section class="text-center" id="contact">
             <h2>Interested? Contact me</h2>
-            <dl>
-                <dt></dt>
-            </dl>
-            <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
-
+            <div class="row">
+                <div class="col-sm">
+                    <a href="https://github.com/lubot1"><i class="fab fa-github-square socialLinks" aria-hidden="true"></i></a>
+                </div>
+                <div class="col-sm">
+                    <a href="https://www.linkedin.com/in/luis-botello-160b58101/"><i class="fab fa-linkedin socialLinks" aria-hidden="true"></i></a>
+                </div>
+                <div class="col-sm">
+                    <a href="botello468@gmail.com"><i class="fas fa-envelope socialLinks" aria-hidden="true"></i></a>
+                </div>
+            </div>
         </section>
     </main>
     <footer>

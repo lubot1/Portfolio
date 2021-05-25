@@ -104,3 +104,28 @@ h1 {
     height: 80%;
     width: 20%;
 }
+/* PORTFOLIO SECTION */
+#portfolio {
+    background-color: #dfdfdf;
+}
+#portfolio h2 {
+    color: #2B2C28;
+}
+#portfolio p {
+    color: #2B2C28;
+}
+
+/* CONTACT SECTION */
+#contact {
+    background-color: #2B2C28;
+}
+#contact h2 {
+    color: #dfdfdf;
+}
+#contact p {
+    color: #dfdfdf;
+}
+.socialLinks {
+    color: #dfdfdf;
+    font-size: 5em;
+}
