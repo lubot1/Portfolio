@@ -93,11 +93,12 @@ h1 {
 /* RESUME SECTION */
 #resume {
     background-color: #2B2C28;
-    height: 70vh;
+    padding-bottom: 2.5%;
 }
 #resume h2 {
     margin: 0%;
     color: #dfdfdf;
+    margin-bottom: 1%;
 }
 #resumeBox {
     height: 80%;

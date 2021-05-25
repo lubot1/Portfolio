@@ -11,6 +11,7 @@ include "config.php";
     <title>Luis Botello</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="./Stylesheets/main.css">
+    <link rel="stylesheet" href="./Stylesheets/timeline.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="./src/index.js"></script>
 </head>
@@ -34,19 +35,92 @@ include "config.php";
     </header>
     <main>
         <section class="jumbotron bg-cover" id="home">
+            <h2 class="sr-only">Luis Botello Intro</h2>
             <div class="container py-5 text-center d-flex flex-row justify-content-around">
                 <img id="ProfilePic" src="./Images/LuisProfile.jpg" class="rounded"></img>
                 <div id="IntroText" class="d-flex flex-column align-items-center">
                     <h1 class="display-4 font-weight-bold">Hi! I'm Luis</h1>
                     <p>Versatile web-developer with a love for solving challenging problems. He has a bachelor’s degree in Space Engineering from York University where he first learned to program in various languages. He is currently pursuing a certificate in web-development at Humber college where he is developing data-driven websites.</p>
-                    <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
                     <a href="#resume" class="btn btn-outline-dark">Learn more</a>
                 </div>
             </div>
         </section>
         <section class="text-center" id="resume">
             <h2>My story</h2>
-            <iframe name="myiframe" id="resumeBox" src="./Documents/Resume.pdf">
+            <div class="container">
+                <!-- Timeline template from https://www.bootdey.com/snippets/view/bs4-my-experience-timeline#html -->
+                <div class="main-timeline">
+                    <!-- start experience section-->
+                    <div class="timeline">
+                        <div class="icon"></div>
+                        <div class="date-content">
+                            <div class="date-outer">
+                                <span class="date">
+                                        <span class="month">5 Years</span>
+                                <span class="year">2015</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="timeline-content">
+                            <h5 class="title">B.Eng Space Engineering <span class="educationCampus">York University</span></h5>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex sit amet massa scelerisque scelerisque. Aliquam erat volutpat. Aenean interdum finibus efficitur. Praesent dapibus dolor felis, eu ultrices elit molestie.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- end experience section-->
+
+                    <!-- start experience section-->
+                    <div class="timeline">
+                        <div class="icon"></div>
+                        <div class="date-content">
+                            <div class="date-outer">
+                                <span class="date">
+                                        <span class="month">1 Years</span>
+                                <span class="year">2020</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="timeline-content">
+                            <h5 class="title">Web Development <span class="educationCampus">Humber College</span></h5>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex sit amet massa scelerisque scelerisque. Aliquam erat volutpat. Aenean interdum finibus efficitur. Praesent dapibus dolor felis, eu ultrices elit molestie.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- end experience section-->
+                    <!-- start experience section-->
+                    <div class="timeline">
+                        <div class="icon"></div>
+                        <div class="date-content">
+                            <div class="date-outer">
+                                <span class="date">
+                                        <span class="month">?</span>
+                                <span class="year">2021</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="timeline-content">
+                            <h5 class="title">Web Developer</h5>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex sit amet massa scelerisque scelerisque. Aliquam erat volutpat. Aenean interdum finibus efficitur. Praesent dapibus dolor felis, eu ultrices elit molestie.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- end experience section-->
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+        </section>
+        <section id="contact">
+            <h2>Interested? Contact me</h2>
+            <dl>
+                <dt></dt>
+            </dl>
+            <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
+
         </section>
     </main>
     <footer>
