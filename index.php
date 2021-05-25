@@ -113,10 +113,14 @@
             <div class="container">
                 <div class="row">
                     <div class="col">
-                        <a href="http://"><img src="" alt="" srcset=""></a>        
+                        <h3>Clash Force Five</h3>
+                        <a href="http://clash.luisbotello.tech/"><img src="./Images/Clash.png" alt="Homescreen for Clash Force Five HR application"></a>
+                        <p>US Army HR application</p>
                     </div>
                     <div class="col">
-                        <a href="http://"><img src="" alt="" srcset=""></a>
+                        <h3>Isochrone</h3>
+                        <a href="http://http://isochrone.luisbotello.tech"><img src="./Images/Isochrone.png" alt="Map with polygons drawn on it representing the area someone can travel within a given timeframe"></a>
+                        <p>Travel-time visualizer using an open API</p>
                     </div>
                     <div class="col">
                         <a href="http://"><img src="" alt="" srcset=""></a>
@@ -137,7 +141,7 @@
                     <a href="https://www.linkedin.com/in/luis-botello-160b58101/"><i class="fab fa-linkedin socialLinks" aria-hidden="true"></i></a>
                 </div>
                 <div class="col-sm">
-                    <a href="botello468@gmail.com"><i class="fas fa-envelope socialLinks" aria-hidden="true"></i></a>
+                    <a href="mailto:botello468@gmail.com"><i class="fas fa-envelope socialLinks" aria-hidden="true"></i></a>
                 </div>
             </div>
         </section>
