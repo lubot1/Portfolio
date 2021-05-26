@@ -1,7 +1,7 @@
 /*
 *
 * ==========================================
-* CUSTOM UTIL CLASSES
+* NAVBAR SECTION
 * ==========================================
 *
 */
@@ -62,6 +62,9 @@
     color: #7A4419;
 }
 /* JUMBOTRON SECTION */
+.img-fluid {
+    max-height: 100%;
+}
 .jumbotron {
     /* Photo by <a href="https://unsplash.com/@xcrap?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">César Couto</a> on <a href="https://unsplash.com/s/photos/portfolio-background?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
    */
@@ -107,6 +110,7 @@ h1 {
 /* PORTFOLIO SECTION */
 #portfolio {
     background-color: #dfdfdf;
+    height: 100vh;
 }
 #portfolio h2 {
     color: #2B2C28;
@@ -116,6 +120,10 @@ h1 {
 }
 #portfolio p {
     color: #2B2C28;
+}
+.PortfolioGroup {
+    max-width: 80%;
+    margin: auto;
 }
 
 /* CONTACT SECTION */

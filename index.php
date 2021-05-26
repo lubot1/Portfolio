@@ -34,7 +34,7 @@
         <section class="jumbotron bg-cover" id="home">
             <h2 class="sr-only">Luis Botello Intro</h2>
             <div class="container py-5 text-center d-flex flex-row justify-content-around">
-                <img id="ProfilePic" src="./Images/LuisProfile.jpg" class="rounded"></img>
+                <img id="ProfilePic" src="./Images/LuisProfile.jpg" class="rounded img-fluid"></img>
                 <div id="IntroText" class="d-flex flex-column align-items-center">
                     <h1 class="display-4 font-weight-bold">Hi! I'm Luis</h1>
                     <p>Versatile web-developer with a love for solving challenging problems. He has a bachelor’s degree in Space Engineering from York University where he first learned to program in various languages. He is currently pursuing a certificate in web-development at Humber college where he is developing data-driven websites.</p>
@@ -111,17 +111,19 @@
         <section class="text-center" id="portfolio">
             <h2>Projects</h2>
             <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <h3>Clash Force Five</h3>
-                        <a href="http://clash.luisbotello.tech/"><img src="./Images/Clash.png" alt="Homescreen for Clash Force Five HR application"></a>
+                <div class="row PortfolioGroup">
+                    <div class="col text-center">
+                        <h3 class="text-center">Clash Force Five</h3>
+                        <a href="http://clash.luisbotello.tech/"><img class="img-fluid" src="./Images/Clash.png" alt="Homescreen for Clash Force Five HR application"></a>
                         <p>US Army HR application</p>
                     </div>
                     <div class="col">
                         <h3>Isochrone</h3>
-                        <a href="http://isochrone.luisbotello.tech"><img src="./Images/Isochrone.png" alt="Map with polygons drawn on it representing the area someone can travel within a given timeframe"></a>
+                        <a href="http://isochrone.luisbotello.tech"><img class="img-fluid" src="./Images/Isochrone.png" alt="Map with polygons drawn on it representing the area someone can travel within a given timeframe"></a>
                         <p>Travel-time visualizer using an open API</p>
                     </div>
+                </div>
+                <div class="row PortfolioGroup">
                     <div class="col">
                         <a href="http://"><img src="" alt="" srcset=""></a>
                     </div>
