@@ -125,7 +125,9 @@
                 </div>
                 <div class="row PortfolioGroup">
                     <div class="col">
-                        <a href="http://"><img src="" alt="" srcset=""></a>
+                        <h3>Peel Covid dashboard</h3>
+                        <a href="http://covid.luisbotello.tech"><img class="img-fluid" src="./Images/Covid.png" alt="Graph of Covid cases in Peel during the whole pandemic" srcset=""></a>
+                        <p>Interactive Covid dashboard</p>
                     </div>
                     <div class="col">
                         <a href="http://"><img src="" alt="" srcset=""></a>
@@ -136,14 +138,17 @@
         <section class="text-center" id="contact">
             <h2>Interested? Contact me</h2>
             <div class="row" id="SocialBtnsGroup">
-                <div class="col-sm">
+                <div class="col-sm d-flex flex-column">
                     <a href="https://github.com/lubot1"><i class="fab fa-github-square socialLinks" aria-hidden="true"></i></a>
+                    <a href="https://github.com/lubot1">github.com/lubot1</a>
                 </div>
-                <div class="col-sm">
+                <div class="col-sm d-flex flex-column">
                     <a href="https://www.linkedin.com/in/luis-botello-160b58101/"><i class="fab fa-linkedin socialLinks" aria-hidden="true"></i></a>
+                    <a href="https://www.linkedin.com/in/luis-botello-160b58101/">linkedin.com/in/luis-botello-160b58101/</a>
                 </div>
-                <div class="col-sm">
+                <div class="col-sm d-flex flex-column">
                     <a href="mailto:botello468@gmail.com"><i class="fas fa-envelope socialLinks" aria-hidden="true"></i></a>
+                    <a href="mailto:botello468@gmail.com">botello468@gmail.com</a>
                 </div>
             </div>
         </section>
