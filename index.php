@@ -241,19 +241,19 @@
             <div class="row" id="SocialBtnsGroup">
                 <div class="col-sm d-flex flex-column socialLinksBox">
                     <a href="https://github.com/lubot1"><i class="fab fa-github-square socialIcons socialLinks" aria-hidden="true"></i></a>
-                    <a href="https://github.com/lubot1" class="socialLinks">github.com/lubot1</a>
+                    <!-- <a href="https://github.com/lubot1" class="socialLinks">github.com/lubot1</a> -->
                 </div>
                 <div class="col-sm d-flex flex-column socialLinksBox">
                     <a href="https://www.linkedin.com/in/luis-botello-160b58101/"><i class="fab fa-linkedin socialIcons socialLinks" aria-hidden="true"></i></a>
-                    <a href="https://www.linkedin.com/in/luis-botello-160b58101/" class="socialLinks">linkedin.com/in/luis-botello-160b58101/</a>
+                    <!-- <a href="https://www.linkedin.com/in/luis-botello-160b58101/" class="socialLinks">linkedin.com/in/luis-botello-160b58101/</a> -->
                 </div>
                 <div class="col-sm d-flex flex-column socialLinksBox">
                     <a href="mailto:botello468@gmail.com"><i class="fas fa-envelope socialIcons socialLinks" aria-hidden="true"></i></a>
-                    <a href="mailto:botello468@gmail.com" class="socialLinks">botello468@gmail.com</a>
+                    <!-- <a href="mailto:botello468@gmail.com" class="socialLinks">botello468@gmail.com</a> -->
                 </div>
                 <div class="col-sm d-flex flex-column socialLinksBox">
                     <a href="tel:6474661522"><i class="fas fa-phone socialIcons socialLinks" aria-hidden="true"></i></a>
-                    <a href="tel:6474661522" class="socialLinks">(647)-466-1522</a>
+                    <!-- <a href="tel:6474661522" class="socialLinks">(647)-466-1522</a> -->
                 </div>
             </div>
         </section>
