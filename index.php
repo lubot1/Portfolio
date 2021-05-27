@@ -233,7 +233,7 @@
                     <div class="col text-center">
                         <h3>Taj Mahal restaurant</h3>
                         <a href="https://glacial-temple-89712.herokuapp.com/pages/locations.html"><img src="./Images/Taj.png" class="img-fluid" alt="Locations page of an indian restaurant showing nearest locations"></a>
-                        <a href="https://github.com/lubot1/CovidDashboard" class="portfolioLinks">Github</a>
+                        <a href="https://github.com/lubot1/TajMahal" class="portfolioLinks">Github</a>
                         <p>
                             Fully functioning website for a fictional chain of indian restaurants in the GTA. I designed and implemented the locations and sitemap pages using vanilla Javascript and JQuery.
                             The locations page allows users to see all restaurant locations as well as search for a list of the nearest locations.
