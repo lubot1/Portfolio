@@ -224,8 +224,8 @@
                     <a href="mailto:botello468@gmail.com" class="socialLinks">botello468@gmail.com</a>
                 </div>
                 <div class="col-sm d-flex flex-column socialLinksBox">
-                    <a href="phone:6474661522"><i class="fas fa-phone socialIcons socialLinks" aria-hidden="true"></i></a>
-                    <a href="phone:6474661522" class="socialLinks">(647)-466-1522</a>
+                    <a href="tel:6474661522"><i class="fas fa-phone socialIcons socialLinks" aria-hidden="true"></i></a>
+                    <a href="tel:6474661522" class="socialLinks">(647)-466-1522</a>
                 </div>
             </div>
         </section>
