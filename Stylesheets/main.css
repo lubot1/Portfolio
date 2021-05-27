@@ -76,13 +76,13 @@
     margin-bottom: 0px;
 }
 .jumbotron .container {
-    margin-top: 20vh;
+    /* margin-top: 20vh; */
 }
 h1 {
     color: #131515;
 }
-#IntroText {
-    margin-right: 10%;
+#JumbotronContainer {
+    margin-top: 4%;
 }
 #IntroText p {
     color: #131515;
@@ -92,6 +92,14 @@ h1 {
 #ProfilePic {
     max-width: 15%;
     /* margin-right: -20%; */
+}
+@media (max-width: 991.98px) {
+    #JumbotronContainer {
+        margin-top: 10%;
+    }
+    #ProfilePic {
+        max-width: 30%;
+    }
 }
 /* RESUME SECTION */
 #resume {
@@ -110,7 +118,7 @@ h1 {
 /* PORTFOLIO SECTION */
 #portfolio {
     background-color: #dfdfdf;
-    height: 100vh;
+    /* height: 100vh; */
 }
 #portfolio h2 {
     color: #2B2C28;

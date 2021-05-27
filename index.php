@@ -33,7 +33,7 @@
     <main>
         <section class="jumbotron bg-cover" id="home">
             <h2 class="sr-only">Luis Botello Intro</h2>
-            <div class="container py-5 text-center d-flex flex-row justify-content-around">
+            <div class="container py-5 text-center d-flex flex-column align-items-center" id="JumbotronContainer">
                 <img id="ProfilePic" src="./Images/LuisProfile.jpg" class="rounded img-fluid"></img>
                 <div id="IntroText" class="d-flex flex-column align-items-center">
                     <h1 class="display-4 font-weight-bold">Hi! I'm Luis</h1>
