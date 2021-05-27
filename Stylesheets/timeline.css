@@ -206,6 +206,9 @@ li {
     #thirdTimeBubble {
         margin-top: 79px;
     }
+    #fourthTimeBubble {
+        margin-top: 36px;
+    }
 }
 @media only screen and (max-width: 991px) {
     #firstTimeBubble {
@@ -218,7 +221,7 @@ li {
         margin-top: 102px;
     }
     #fourthTimeBubble {
-        margin-top: 39px;
+        margin-top: 50px;
     }
     .main-timeline .date-content:before {
         width: 22.5%

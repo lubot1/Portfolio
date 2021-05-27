@@ -177,6 +177,10 @@
                         <i class="fab fa-css3-alt techIcons"></i>
                         <h4 class="techNames">CSS</h4>
                     </div>
+                    <div class="col">
+                        <i class="fab fa-bootstrap techIcons"></i>
+                        <h4 class="techNames">Bootstrap</h4>
+                    </div>
                     
                 </div>
             </div>
@@ -186,21 +190,45 @@
             <div class="container">
                 <div class="row PortfolioGroup">
                     <div class="col text-center">
-                        <h3 class="text-center">Clash Force Five</h3>
+                        <h3 class="text-center">US Army HR Application</h3>
                         <a href="http://clash.luisbotello.tech/"><img class="img-fluid" src="./Images/Clash.png" alt="Homescreen for Clash Force Five HR application"></a>
-                        <p>US Army HR application</p>
+                        <a href="https://github.com/2021-Winter-HTTP-5202-A/ChopperForceFive" class="portfolioLinks">Github</a>
+                        <p>
+                            Web application developed with PHP and MySQL to manage a company of troops. I designed the personnel list, update, and create pages as well as
+                            the alerts feature located on the main page that shows details about information that needs to be updated.
+                        </p>
+                        <i class="fab fa-php portfolioIcons"></i>
                     </div>
                     <div class="col text-center">
                         <h3>Isochrone</h3>
                         <a href="http://isochrone.luisbotello.tech"><img class="img-fluid" src="./Images/Isochrone.png" alt="Map with polygons drawn on it representing the area someone can travel within a given timeframe"></a>
-                        <p>Travel-time visualizer using an open API</p>
+                        <a href="https://github.com/lubot1/Isochrone" class="portfolioLinks">Github</a>
+                        <p>
+                            Travel-time visualizer using <a href="https://www.geoapify.com/" class="portfolioLinks">Geoapify</a> and Google maps API's. The backend was implemented using PHP, with
+                            Bootstrap being used for the frontend CSS. Users can view the area reachable within the chosen timeframes via driving, cycling, walking, or public transit.
+                        </p>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <i class="fab fa-bootstrap portfolioIcons"></i>
+                                </div>
+                                <div class="col">
+                                    <i class="fab fa-php portfolioIcons"></i>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="row PortfolioGroup">
                     <div class="col text-center">
                         <h3>Peel Covid dashboard</h3>
                         <a href="http://covid.luisbotello.tech"><img class="img-fluid" src="./Images/Covid.png" alt="Graph of Covid cases in Peel during the whole pandemic" srcset=""></a>
-                        <p>Interactive Covid dashboard</p>
+                        <a href="https://github.com/lubot1/CovidDashboard" class="portfolioLinks">Github</a>
+                        <p>
+                            Interactive Covid dashboard designed using data pulled from Ontario's public databanks. Created with Javascript to make GET requests from users' browsers
+                            and Chart.js to display data. The app also displays active cases in the region and uses public health guidelines to assign a risk level.
+                        </p>
+                        <i class="fab fa-js-square portfolioIcons"></i>
                     </div>
                     <!-- <div class="col text-center">
                         <a href="http://"><img src="" alt="" srcset=""></a>

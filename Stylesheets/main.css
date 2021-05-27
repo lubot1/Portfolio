@@ -75,6 +75,11 @@
     border-radius: 0%;
     margin-bottom: 0px;
 }
+@media only screen and (min-width: 1200px) {
+    .jumbotron {
+        height:fit-content;
+    }
+}
 h1 {
     color: #131515;
 }
@@ -105,6 +110,10 @@ h1 {
     }
 }
 /* RESUME SECTION */
+h2 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
 #resume {
     background-color: #2B2C28;
     padding-bottom: 2.5%;
@@ -112,7 +121,7 @@ h1 {
 #resume h2 {
     margin: 0%;
     color: #dfdfdf;
-    margin-bottom: 1%;
+    
 }
 #resumeBox {
     height: 80%;
@@ -144,12 +153,24 @@ h1 {
 }
 #portfolio h3 {
     color: #2B2C28;
+    margin-top: 5%;
 }
 #portfolio p {
     color: #2B2C28;
+    text-align: justify;
+}
+.portfolioLinks {
+    color: #2B2C28;
+    text-decoration: underline;
+}
+.portfolioLinks:hover {
+    color: #7A4419;
+}
+.portfolioIcons {
+    font-size: 3em;
 }
 .PortfolioGroup {
-    max-width: 80%;
+    max-width: 90%;
     margin: auto;
 }
 
