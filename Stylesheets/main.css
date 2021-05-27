@@ -75,9 +75,6 @@
     border-radius: 0%;
     margin-bottom: 0px;
 }
-.jumbotron .container {
-    /* margin-top: 20vh; */
-}
 h1 {
     color: #131515;
 }
@@ -94,11 +91,17 @@ h1 {
     /* margin-right: -20%; */
 }
 @media (max-width: 991.98px) {
+    .jumbotron {
+        height: fit-content;
+    }
     #JumbotronContainer {
         margin-top: 10%;
     }
     #ProfilePic {
         max-width: 30%;
+    }
+    #IntroText p {
+        max-width: 100%;
     }
 }
 /* RESUME SECTION */
@@ -114,6 +117,22 @@ h1 {
 #resumeBox {
     height: 80%;
     width: 20%;
+}
+#techHeader {
+    color: #dfdfdf;
+}
+.techIcons {
+    color: #dfdfdf;
+    font-size: 3em;
+    transition-property: transform;
+    transition-duration: 1.5s;
+}
+.techIcons:hover {
+    color: #7A4419;
+    transform: rotate(360deg);
+}
+.techNames {
+    color: #dfdfdf;
 }
 /* PORTFOLIO SECTION */
 #portfolio {
@@ -141,14 +160,17 @@ h1 {
 #contact h2 {
     color: #dfdfdf;
 }
-#contact p {
+.socialLinks {
     color: #dfdfdf;
+}
+.socialLinks:hover {
+    color: #7A4419;
+    text-decoration: none;
 }
 #SocialBtnsGroup {
     max-width: 80%;
     margin: auto;
 }
-.socialLinks {
-    color: #dfdfdf;
+.socialIcons {
     font-size: 5em;
 }

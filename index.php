@@ -50,7 +50,7 @@
                     <!-- start experience section-->
                     <div class="timeline">
                         <div class="icon"></div>
-                        <div class="date-content">
+                        <div class="date-content" id="firstTimeBubble">
                             <div class="date-outer">
                                 <span class="date">
                                         <span class="month">5 Years</span>
@@ -61,19 +61,80 @@
                         <div class="timeline-content">
                             <h3 class="title">B.Eng Space Engineering <span class="educationCampus">York University</span></h3>
                             <p class="description">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex sit amet massa scelerisque scelerisque. Aliquam erat volutpat. Aenean interdum finibus efficitur. Praesent dapibus dolor felis, eu ultrices elit molestie.
+                                Relevant courses in: Project Management & Economics, Software Tools, Advanced Object-Oriented
+                                Programming, Computational methods for Physicists and Engineers
                             </p>
                         </div>
                     </div>
                     <!-- end experience section-->
-
                     <!-- start experience section-->
                     <div class="timeline">
                         <div class="icon"></div>
-                        <div class="date-content">
+                        <div class="date-content" id="secondTimeBubble">
                             <div class="date-outer">
                                 <span class="date">
-                                        <span class="month">1 Years</span>
+                                        <span class="month">3 Years</span>
+                                <span class="year">2016</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="timeline-content">
+                            <h3 class="title">Science Team Lead <span class="educationCampus">York University Rover Team</span></h3>
+                            <ul class="description">
+                                <li>
+                                    Created a comprehensive science strategy for use at the Canadian International Rover Challenge (CIRC)
+                                    which was received very well by the judges
+                                </li>
+                                <li>
+                                    Managed a small team of four people to collect research and identify what sensors were needed to
+                                    identify potential signs of life in arid regions
+                                </li>
+                                <li>
+                                    Achieved a high degree of organisation by maintaining budgets, requirements documents, and science
+                                    plans to ensure team executives were kept informed on progress
+                                </li>
+                                <li>
+                                    Developed software to control and retrieve data from sensors using an Arduino microcontroller
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- end experience section-->
+                    <!-- start experience section-->
+                    <div class="timeline">
+                        <div class="icon"></div>
+                        <div class="date-content" id="thirdTimeBubble">
+                            <div class="date-outer">
+                                <span class="date">
+                                        <span class="month">1 Year</span>
+                                <span class="year">2019</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="timeline-content">
+                            <h3 class="title">VP Communications <span class="educationCampus">York University Rover Team</span></h3>
+                            <ul class="description">
+                                <li>
+                                    Coordinated a social media strategy that was used to recruit new members and attract sponsors
+                                </li>
+                                <li>
+                                    Kept detailed meeting notes to ensure progress was communicated to the entire team
+                                </li>
+                                <li>
+                                    Provided administrative support for the rover team by organizing meetings, creating budgets, and
+                                planning deadlines
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- end experience section-->
+                    <!-- start experience section-->
+                    <div class="timeline">
+                        <div class="icon"></div>
+                        <div class="date-content" id="fourthTimeBubble">
+                            <div class="date-outer">
+                                <span class="date">
+                                        <span class="month">1 Year</span>
                                 <span class="year">2020</span>
                                 </span>
                             </div>
@@ -81,30 +142,42 @@
                         <div class="timeline-content">
                             <h3 class="title">Web Development <span class="educationCampus">Humber College</span></h3>
                             <p class="description">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex sit amet massa scelerisque scelerisque. Aliquam erat volutpat. Aenean interdum finibus efficitur. Praesent dapibus dolor felis, eu ultrices elit molestie.
+                                Post-graduate certificate in web development with classes expected to finish in June. Relevant courses in Database design & development, 
+                                project management, Security & Quality Assurance, and Web Application Development. Learned how to create full-stack websites.
                             </p>
                         </div>
                     </div>
                     <!-- end experience section-->
-                    <!-- start experience section-->
-                    <div class="timeline">
-                        <div class="icon"></div>
-                        <div class="date-content">
-                            <div class="date-outer">
-                                <span class="date">
-                                        <span class="month">?</span>
-                                <span class="year">2021</span>
-                                </span>
-                            </div>
-                        </div>
-                        <div class="timeline-content">
-                            <h3 class="title">Web Developer</h3>
-                            <p class="description">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex sit amet massa scelerisque scelerisque. Aliquam erat volutpat. Aenean interdum finibus efficitur. Praesent dapibus dolor felis, eu ultrices elit molestie.
-                            </p>
-                        </div>
+                </div>
+            </div>
+            <div class="container">
+                <h3 id="techHeader">Technologies</h3>
+                <div class="row">
+                    <div class="col">
+                        <i class="fas fa-database techIcons"></i>
+                        <h4 class="techNames">MySQL</h4>
                     </div>
-                    <!-- end experience section-->
+                    <div class="col">
+                        <i class="fab fa-microsoft techIcons"></i>
+                        <h4 class="techNames">Asp .NET</h4>
+                    </div>
+                    <div class="col">
+                        <i class="fab fa-php techIcons"></i>
+                        <h4 class="techNames">PHP</h4>
+                    </div>
+                    <div class="col">
+                        <i class="fab fa-js techIcons"></i>
+                        <h4 class="techNames">Javascript</h4>
+                    </div>
+                    <div class="col">
+                        <i class="fab fa-node-js techIcons"></i>
+                        <h4 class="techNames">Node.js</h4>
+                    </div>
+                    <div class="col">
+                        <i class="fab fa-css3-alt techIcons"></i>
+                        <h4 class="techNames">CSS</h4>
+                    </div>
+                    
                 </div>
             </div>
         </section>
@@ -117,38 +190,42 @@
                         <a href="http://clash.luisbotello.tech/"><img class="img-fluid" src="./Images/Clash.png" alt="Homescreen for Clash Force Five HR application"></a>
                         <p>US Army HR application</p>
                     </div>
-                    <div class="col">
+                    <div class="col text-center">
                         <h3>Isochrone</h3>
                         <a href="http://isochrone.luisbotello.tech"><img class="img-fluid" src="./Images/Isochrone.png" alt="Map with polygons drawn on it representing the area someone can travel within a given timeframe"></a>
                         <p>Travel-time visualizer using an open API</p>
                     </div>
                 </div>
                 <div class="row PortfolioGroup">
-                    <div class="col">
+                    <div class="col text-center">
                         <h3>Peel Covid dashboard</h3>
                         <a href="http://covid.luisbotello.tech"><img class="img-fluid" src="./Images/Covid.png" alt="Graph of Covid cases in Peel during the whole pandemic" srcset=""></a>
                         <p>Interactive Covid dashboard</p>
                     </div>
-                    <div class="col">
+                    <!-- <div class="col text-center">
                         <a href="http://"><img src="" alt="" srcset=""></a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
         <section class="text-center" id="contact">
             <h2>Interested? Contact me</h2>
             <div class="row" id="SocialBtnsGroup">
-                <div class="col-sm d-flex flex-column">
-                    <a href="https://github.com/lubot1"><i class="fab fa-github-square socialLinks" aria-hidden="true"></i></a>
-                    <a href="https://github.com/lubot1">github.com/lubot1</a>
+                <div class="col-sm d-flex flex-column socialLinksBox">
+                    <a href="https://github.com/lubot1"><i class="fab fa-github-square socialIcons socialLinks" aria-hidden="true"></i></a>
+                    <a href="https://github.com/lubot1" class="socialLinks">github.com/lubot1</a>
                 </div>
-                <div class="col-sm d-flex flex-column">
-                    <a href="https://www.linkedin.com/in/luis-botello-160b58101/"><i class="fab fa-linkedin socialLinks" aria-hidden="true"></i></a>
-                    <a href="https://www.linkedin.com/in/luis-botello-160b58101/">linkedin.com/in/luis-botello-160b58101/</a>
+                <div class="col-sm d-flex flex-column socialLinksBox">
+                    <a href="https://www.linkedin.com/in/luis-botello-160b58101/"><i class="fab fa-linkedin socialIcons socialLinks" aria-hidden="true"></i></a>
+                    <a href="https://www.linkedin.com/in/luis-botello-160b58101/" class="socialLinks">linkedin.com/in/luis-botello-160b58101/</a>
                 </div>
-                <div class="col-sm d-flex flex-column">
-                    <a href="mailto:botello468@gmail.com"><i class="fas fa-envelope socialLinks" aria-hidden="true"></i></a>
-                    <a href="mailto:botello468@gmail.com">botello468@gmail.com</a>
+                <div class="col-sm d-flex flex-column socialLinksBox">
+                    <a href="mailto:botello468@gmail.com"><i class="fas fa-envelope socialIcons socialLinks" aria-hidden="true"></i></a>
+                    <a href="mailto:botello468@gmail.com" class="socialLinks">botello468@gmail.com</a>
+                </div>
+                <div class="col-sm d-flex flex-column socialLinksBox">
+                    <a href="phone:6474661522"><i class="fas fa-phone socialIcons socialLinks" aria-hidden="true"></i></a>
+                    <a href="phone:6474661522" class="socialLinks">(647)-466-1522</a>
                 </div>
             </div>
         </section>

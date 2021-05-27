@@ -6,4 +6,16 @@ $(function () {
             $('.navbar').removeClass('active');
         }
     });
+    $('.techIcons').on('mouseover', function() {
+        $(this).siblings().css("color","#7A4419");
+    });
+    $('.techIcons').on('mouseleave', function() {
+        $(this).siblings().css("color","#dfdfdf");
+    });
+    $('.socialLinks').on('mouseover', function() {
+        $(this).siblings().css("color","#7A4419");
+    });
+    $('.socialLinks').on('mouseleave', () => {
+        $(this).siblings().css("color","#dfdfdf");
+    });
 });
