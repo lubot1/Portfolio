@@ -24,6 +24,7 @@
                         <li class="nav-item active"><a href="#home" class="nav-link text-uppercase font-weight-bold">Home <span class="sr-only">(current)</span></a></li>
                         <li class="nav-item"><a href="#resume" class="nav-link text-uppercase font-weight-bold">Resume</a></li>
                         <li class="nav-item"><a href="#portfolio" class="nav-link text-uppercase font-weight-bold">Projects</a></li>
+                        <li class="nav-item"><a href="case-studies.html" class="nav-link text-uppercase font-weight-bold">Case Studies</a></li>
                         <li class="nav-item"><a href="#contact" class="nav-link text-uppercase font-weight-bold">Contact</a></li>
                     </ul>
                 </div>
